@@ -54,11 +54,11 @@
 -- Profit recheck interval time (in seconds - less than 600 not recommended)
 -- This interval recalculates and selects the most profitable algorithm 
 
-@@INTERVAL=240
+@@INTERVAL=120
 
 -- Benchmarks interval time (less than 200 not recommended)
 
-@@BENCHMARKTIME=300
+@@BENCHMARKTIME=200
 
 -- Screen to be shown at script start-up (WALLETS/CURRENT/HISTORY/PROFITS)
 
