@@ -181,7 +181,7 @@ while ($true) {
 
     
     $Dt= [int](get-config-variable "DONATE")
-    $DonateTime=if ($Dt -gt 9) {[int]$Dt} else {10}
+    $DonateTime=if ($Dt -gt 0) {[int]$Dt} else {0}
     #Activate or deactivate donation
     if ($ElapsedDonationTime -gt 1440 -and $DonateTime -gt 0) { # donation interval
 
