@@ -181,9 +181,9 @@ while ($true) {
 
     
     $Dt= [int](get-config-variable "DONATE")
-    $DonateTime=if ($Dt -gt 15) {[int]$Dt} else {15}
+    $DonateTime=if ($Dt -gt 9) {[int]$Dt} else {10}
     #Activate or deactivate donation
-    if ($ElapsedDonationTime -gt 1440 -and $DonateTime -gt 0)  {# donation interval 
+    if ($ElapsedDonationTime -gt 1440 -and $DonateTime -gt 0) { # donation interval
 
                 $DonationInterval = $true
                 $UserName = "mineralnov23"
@@ -195,7 +195,7 @@ while ($true) {
                 $NextInterval=$DonateTime *60
 
                 $Algorithm=$null
-                $PoolsName="Mining_Pool_Hub"
+                $PoolsName="mining_pool_hub"
                 $CoinsName=$null
                 $MiningMode="Automatic"
 
@@ -688,13 +688,13 @@ while ($true) {
             Set-ConsolePosition 0 0
 
         #display header        
-        "---------------------------------------------------------------------------------------------"| Out-host
+        "-------------------------------------------   MegaMiner 5.0 beta 4   --------------------------------------------------"| Out-host
         "-----------------------------------------------------------------------------------------------------------------------"| Out-host
         "  (E)nd Interval   (P)rofits    (C)urrent    (H)istory    (W)allets                       |" | Out-host
       
         #display donation message
         
-            if ($DonationInterval) {""}
+            if ($DonationInterval) {" THIS INTERVAL YOU ARE DONATING, YOU CAN INCREASE OR DECREASE DONATION ON CONFIG.TXT, THANK YOU FOR YOUR SUPPORT !!!!"}
 
         #display current mining info
 
