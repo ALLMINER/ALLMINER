@@ -1076,3 +1076,4 @@ function get-WhattomineFactor ([string]$Algo) {
          $WTMFactor       
     
     }
+    
