@@ -38,7 +38,7 @@
 
 -- Number of minutes to mine as a donation each day (NOT PERCENT)
 
-@@DONATE=2
+@@DONATE=10
 
 -- Use your cpu to mine: ENABLED = yes, DISABLED = no (you can start cpu alone mining also using -groupnames parameter in batch file)
 
@@ -54,11 +54,11 @@
 -- Profit recheck interval time (in seconds - less than 600 not recommended)
 -- This interval recalculates and selects the most profitable algorithm 
 
-@@INTERVAL=120
+@@INTERVAL=140
 
 -- Benchmarks interval time (less than 200 not recommended for GPU, 300 for CPU)
 
-@@BENCHMARKTIME=200
+@@BENCHMARKTIME=220
 
 -- Screen to be shown at script start-up (WALLETS/CURRENT/HISTORY/PROFITS)
 
