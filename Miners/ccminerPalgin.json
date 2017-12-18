@@ -14,7 +14,9 @@
                     {"lbry" : "-a lbry" },
                     {"Keccak" : "-a Keccak -m 2" },
                     {"x11evo" : "-a x11evo"},
-                    {"skein" : "-a skein"}
+                    {"skein" : "-a skein"},
+                    {"Veltor" : "-a Veltor"},
+                    {"nist5" : "-a nist5"}
 
                   ]
     
