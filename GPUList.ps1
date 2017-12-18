@@ -2,7 +2,5 @@
 
 
 
-
-
 get-gpu-information
 

@@ -7,7 +7,7 @@
 
 -- Your rig ID
 
-@@WORKERNAME=1060
+@@WORKERNAME=1060dom
 
 -- Preferred currency you want to receive. Only used for anonymous pools with auto exchange such as Zpool, HR, ...
 -- You must set your wallet for this currency within the Wallets Section found in the Advanced Options section.
@@ -16,7 +16,7 @@
 
 -- Local currency shown within the profits screen (DOLLAR, EURO, GBP)
 
-@@LOCALCURRENCY=US
+@@LOCALCURRENCY=us
 
 -- Location of your rig: EUROPE/US/ASIA (by default "US" will be used for pools that don't require or support this setting)
 
@@ -58,11 +58,11 @@
 
 -- Benchmarks interval time (less than 200 not recommended for GPU, 300 for CPU)
 
-@@BENCHMARKTIME=220
+@@BENCHMARKTIME=200
 
 -- Screen to be shown at script start-up (WALLETS/CURRENT/HISTORY/PROFITS)
 
-@@STARTSCREEN=CURRENT
+@@STARTSCREEN=PROFITS
 
 -- [OPTIONAL] API Keys
 -- Some non-anonymous pools, such as Suprnova and MPH, require API keys to obtain wallet details.
