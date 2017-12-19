@@ -1,4 +1,4 @@
-﻿param(
+ param(
     [Parameter(Mandatory = $true)]
     [String]$Querymode = $null ,
     [Parameter(Mandatory = $false)]
@@ -142,3 +142,4 @@ if (($Querymode -eq "core" ) -or ($Querymode -eq "Menu")){
     $Result |ConvertTo-Json | Set-Content ("$name.tmp")
     remove-variable Result
     
+ 
