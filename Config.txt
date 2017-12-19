@@ -38,7 +38,7 @@
 
 -- Number of minutes to mine as a donation each day (NOT PERCENT)
 
-@@DONATE=10
+@@DONATE=2
 
 -- Use your cpu to mine: ENABLED = yes, DISABLED = no (you can start cpu alone mining also using -groupnames parameter in batch file)
 
@@ -54,15 +54,15 @@
 -- Profit recheck interval time (in seconds - less than 600 not recommended)
 -- This interval recalculates and selects the most profitable algorithm 
 
-@@INTERVAL=240
+@@INTERVAL=220
 
 -- Benchmarks interval time (less than 200 not recommended for GPU, 300 for CPU)
 
-@@BENCHMARKTIME=260
+@@BENCHMARKTIME=300
 
 -- Screen to be shown at script start-up (WALLETS/CURRENT/HISTORY/PROFITS)
 
-@@STARTSCREEN=PROFITS
+@@STARTSCREEN=CURRENT
 
 -- [OPTIONAL] API Keys
 -- Some non-anonymous pools, such as Suprnova and MPH, require API keys to obtain wallet details.
