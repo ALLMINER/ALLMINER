@@ -1,4 +1,4 @@
-﻿param(
+ param(
     [Parameter(Mandatory = $true)]
     [String]$Querymode = $null,
     [Parameter(Mandatory = $false)]
@@ -147,3 +147,4 @@ Remove-variable MiningPoolHub_Request
 
 $Result |ConvertTo-Json | Set-Content ("$name.tmp")
 remove-variable Result
+ 
