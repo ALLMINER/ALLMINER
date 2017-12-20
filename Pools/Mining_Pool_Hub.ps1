@@ -1,19 +1,19 @@
- param(
+param(
     [Parameter(Mandatory = $true)]
     [String]$Querymode = $null,
     [Parameter(Mandatory = $false)]
     [pscustomobject]$Info
     )
 
- #. .\Include.ps1
+#. .\Include.ps1
 
- $Name = (Get-Item $script:MyInvocation.MyCommand.Path).BaseName
- $ActiveOnManualMode    = $true
- $ActiveOnAutomaticMode = $true
- $ActiveOnAutomatic24hMode = $false
- $AbbName="MPH"
- $WalletMode="APIKEY"
- $Result=@()
+$Name = (Get-Item $script:MyInvocation.MyCommand.Path).BaseName
+$ActiveOnManualMode    = $true
+$ActiveOnAutomaticMode = $true
+$ActiveOnAutomatic24hMode = $false
+$AbbName="MPH"
+$WalletMode="APIKEY"
+$Result=@()
 
 #****************************************************************************************************************************************************************************************
 #****************************************************************************************************************************************************************************************
@@ -147,4 +147,3 @@ Remove-variable MiningPoolHub_Request
 
 $Result |ConvertTo-Json | Set-Content ("$name.tmp")
 remove-variable Result
- 
