@@ -10,7 +10,7 @@
     "Dualmining":false,
     "PrelaunchCommand":"",
     "Algorithms": [
-                    {"polytimos" : "-a poly"},
+                    {"polytimos" : "-a poly"}
 
                   ]
     }
