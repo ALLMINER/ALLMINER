@@ -140,6 +140,6 @@ if (($Querymode -eq "core" ) -or ($Querymode -eq "Menu")){
 #****************************************************************************************************************************************************************************************
 
     $Result |ConvertTo-Json | Set-Content ("$name.tmp")
-    remove-variable Result
+    remove-variable Result  
     
  
