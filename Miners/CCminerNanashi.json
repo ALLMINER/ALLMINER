@@ -9,8 +9,6 @@
 "Dualmining":false,
 "PrelaunchCommand":"",
 "Algorithms": [
-                
-                {"neoscrypt" : "-a neoscrypt"},
                 {"lyra2v2" : "-a lyra2v2"}
 
                 

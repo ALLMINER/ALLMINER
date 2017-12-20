@@ -16,7 +16,7 @@
 
 -- Local currency shown within the profits screen (DOLLAR, EURO, GBP)
 
-@@LOCALCURRENCY=us
+@@LOCALCURRENCY=dollar
 
 -- Location of your rig: EUROPE/US/ASIA (by default "US" will be used for pools that don't require or support this setting)
 
