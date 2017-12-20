@@ -10,7 +10,15 @@
     "Dualmining":false,
     "PrelaunchCommand":"",
     "Algorithms": [
-                    {"polytimos" : "-a poly"}
+                    {"polytimos" : "-a poly"},
+                    {"blake2s":"-a blake2s"},
+                    {"blakecoin":"-a blakecoin"},
+                    {"lbry":"-a lbry"},
+                    {"Myriad-Groestl" : "-a myr-gr"},
+                    {"lyra2v2":"-a lyra2v2"},
+                    {"skein" : "-a skein"},
+                    {"veltor":"-a veltor"},
+                    {"nist5" : "-a nist5" }
 
                   ]
     }
