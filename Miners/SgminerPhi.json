@@ -9,7 +9,7 @@
 "Dualmining":false,
 "PrelaunchCommand":"",
 "Algorithms": [
-                {"phi":"--kernel phi -I 21"}
+                {"phi":"--kernel phi -I 19"}
               ]
 
 }

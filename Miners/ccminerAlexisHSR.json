@@ -12,7 +12,6 @@
                     
 
                     {"hsr":"-a hsr"},
-                    {"blake2s":"-a blake2s"},
                     {"nist5":"-a nist5"},
                     {"sib":"-a sib"},
                     {"x17":"-a x17"}

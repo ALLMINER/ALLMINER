@@ -17,8 +17,6 @@
                     {"Myriad-Groestl" : "-a myr-gr"},
                     {"skein" : "-a skein"},
                     {"veltor":"-a veltor"},
-                    {"lyra2v2":"-a lyra2v2"},
-                    {"nist5" : "-a nist5"}
-                   
+                    {"nist5" : "-a nist5" }
                   ]
     }

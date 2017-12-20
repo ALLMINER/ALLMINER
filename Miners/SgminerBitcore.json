@@ -9,7 +9,7 @@
 "Dualmining":false,
 "PrelaunchCommand":"",
 "Algorithms": [
-                {"bitcore":"--kernel timetravel10 -I 21"}
+                {"bitcore":"--kernel timetravel10 -I 19"}
               ]
 
 }
