@@ -34,6 +34,7 @@
 -- For some coins, such as Electroneum, you will need a Payment ID. Add it after your address separated by a dot.
 
 @@WALLET_BTC=1LjWtLA4TCqzHNZXmGBQLqcsBAYXYPYsB9
+@@WALLET_NMS=9db42mMTobjpidVbEqaxLW9jiTo9Y6zb2y
 @@WALLET_XXX=ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 
 -- Number of minutes to mine as a donation each day (NOT PERCENT)
