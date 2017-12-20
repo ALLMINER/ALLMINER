@@ -61,7 +61,7 @@ if ($Querymode -eq "info"){
                                                         currency = $Aha_Request.currency
                                                         balance = $Aha_Request.balance
                                                     }
-                                    remove-variable Aha_Request                                                                                                        
+                                    remove-variable Aha_Request                                                                                                   
                                     }
 
                         
