@@ -3,4 +3,3 @@
 
 
 get-gpu-information
-

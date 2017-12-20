@@ -24,7 +24,9 @@
                 {"c11" : "-a c11"},
                 {"veltor" : "-a veltor"},
                 {"nist5" : "-a nist5"},
-                {"pascal" : "-a pascal"}
+                {"pascal" : "-a pascal"},
+                {"hsr" : "-a hsr"},
+                {"bitcore" : "-a bitcore"}
               ]
 
 }

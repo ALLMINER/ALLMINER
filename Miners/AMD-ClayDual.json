@@ -1,8 +1,8 @@
- {
+{
 "Path" : ".\\Bin\\Claymore's Dual Ethereum\\EthDcrMiner64.exe",
 "ExtractionPath" : ".\\Bin\\",
 "Uri" : "https://github.com/tutulino/Claymore-Dual/releases/download/10.0/Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry_Pascal.AMD.NVIDIA.GPU.Miner.v10.2.-.Catalyst.15.12-17.x.-.CUDA.8.0_7.5_6.5.zip","Types" : ["AMD"],
-"Arguments" : "-epool #SERVER#:#PORT# -ewal #LOGIN# -epsw #PASSWORD# -esm #ETHSTMODE# -dbg -1 -allpools 1 -dpool #SERVERDUAL#:#PORTDUAL# -dwal #LOGINDUAL#  -dpsw #PASSWORDDUAL# -wd 1 -di #DEVICESCLAYMODE# -mport #APIPORT# #ALGORITHMPARAMETERS#",
+"Arguments" : "-epool #SERVER#:#PORT# -ewal #LOGIN# -epsw #PASSWORD# -esm #ETHSTMODE# -allpools 1 -dpool #SERVERDUAL#:#PORTDUAL# -dbg -1 -dwal #LOGINDUAL#  -dpsw #PASSWORDDUAL# -wd 1 -di #DEVICESCLAYMODE# -mport #APIPORT# #ALGORITHMPARAMETERS#",
 "API" : "Claymore",
 "Wrap" : false,
 "DualMining": true,
@@ -15,6 +15,7 @@
           {"Ethash_Blake2b_30":" -dcoin sc -dcri 30"},
           {"Ethash_Blake2b_50":" -dcoin sc -dcri 50"},
           {"Ethash_Blake2b_60":" -dcoin sc -dcri 60"},
+          {"Ethash_Blake2b_90":" -dcoin sc -dcri 90"},
 
 
 
@@ -24,6 +25,7 @@
           {"Ethash_Blake14r_30":" -dcoin dcr -dcri 30"},
           {"Ethash_Blake14r_50":" -dcoin dcr -dcri 50"},
           {"Ethash_Blake14r_60":" -dcoin dcr -dcri 60"},
+          {"Ethash_Blake14r_90":" -dcoin dcr -dcri 90"},
 
 
           {"Ethash_Lbry_15":" -dcoin lbc -dcri 15"},
@@ -31,10 +33,9 @@
           {"Ethash_Lbry_25":" -dcoin lbc -dcri 25"},
           {"Ethash_Lbry_30":" -dcoin lbc -dcri 30"},
           {"Ethash_Lbry_50":" -dcoin lbc -dcri 50"},
-          {"Ethash_Lbry_60":" -dcoin lbc -dcri 60"}   
+          {"Ethash_Lbry_60":" -dcoin lbc -dcri 60"},
+          {"Ethash_Lbry_90":" -dcoin lbc -dcri 90"}     
               ]
 
 }
-
- 
 
