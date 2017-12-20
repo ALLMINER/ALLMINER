@@ -1,0 +1,7 @@
+
+* text=auto
+
+*.ps1 text
+*.txt text
+*.bat text
+*.json text
