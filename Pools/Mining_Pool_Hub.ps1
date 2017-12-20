@@ -5,15 +5,15 @@
     [pscustomobject]$Info
     )
 
-#. .\Include.ps1
+ #. .\Include.ps1
 
-$Name = (Get-Item $script:MyInvocation.MyCommand.Path).BaseName
-$ActiveOnManualMode    = $true
-$ActiveOnAutomaticMode = $true
-$ActiveOnAutomatic24hMode = $false
-$AbbName="MPH"
-$WalletMode="APIKEY"
-$Result=@()
+ $Name = (Get-Item $script:MyInvocation.MyCommand.Path).BaseName
+ $ActiveOnManualMode    = $true
+ $ActiveOnAutomaticMode = $true
+ $ActiveOnAutomatic24hMode = $false
+ $AbbName="MPH"
+ $WalletMode="APIKEY"
+ $Result=@()
 
 #****************************************************************************************************************************************************************************************
 #****************************************************************************************************************************************************************************************
