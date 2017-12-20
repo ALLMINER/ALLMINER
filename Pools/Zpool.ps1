@@ -1,8 +1,8 @@
-﻿param(
-    [Parameter(Mandatory = $true)]
-    [String]$Querymode = $null,
-    [Parameter(Mandatory = $false)]
-    [pscustomobject]$Info
+﻿param( 
+    [Parameter(Mandatory = $true)] 
+    [String]$Querymode = $null,  
+    [Parameter(Mandatory = $false)] 
+    [pscustomobject]$Info 
 
     )
 
