@@ -1,4 +1,4 @@
-﻿-#--------------optional parameters...to allow direct launch without prompt to user
+﻿#--------------optional parameters...to allow direct launch without prompt to user
 param(
     [Parameter(Mandatory = $false)]
     [String]$MiningMode = $null#= "AUTOMATIC/MANUAL"
