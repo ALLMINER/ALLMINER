@@ -53,7 +53,7 @@
 -- Profit recheck interval time (in seconds - less than 600 not recommended)
 -- This interval recalculates and selects the most profitable algorithm 
 
-@@INTERVAL=220
+@@INTERVAL=200
 
 -- Benchmarks interval time (less than 200 not recommended for GPU, 300 for CPU)
 
