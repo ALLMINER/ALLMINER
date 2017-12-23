@@ -34,11 +34,10 @@
 -- For some coins, such as Electroneum, you will need a Payment ID. Add it after your address separated by a dot.
 
 @@WALLET_BTC=12iLvNLqNBwDAP9sgcDEWh199Fak5jWMLT
-@@WALLET_XVG=DQz49K2FAjNJ9w1tFYdpGu5QKj6mh1pJki
 
 -- Number of minutes to mine as a donation each day (NOT PERCENT)
 
-@@DONATE=1
+@@DONATE=12
 
 -- Use your cpu to mine: ENABLED = yes, DISABLED = no (you can start cpu alone mining also using -groupnames parameter in batch file)
 
