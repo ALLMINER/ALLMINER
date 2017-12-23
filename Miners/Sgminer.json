@@ -1,0 +1,25 @@
+{
+"Path" : ".\\Bin\\AMD-sgminer\\sgminer.exe",
+"ExtractionPath" : ".\\Bin\\AMD-sgminer\\",
+"Uri" : "https://github.com/nicehash/sgminer/releases/download/5.6.1/sgminer-5.6.1-nicehash-51-windows-amd64.zip",
+"Types" : ["AMD"],
+"Arguments" : "--api-listen -o #PROTOCOL#://#SERVER#:#PORT# -u #LOGIN# -p #PASSWORD# --device #DEVICES# --api-port #APIPORT# --gpu-platform #GPUPLATFORM# #ALGORITHMPARAMETERS#",
+"API" : "Xgminer",
+"Wrap" : false,
+"Dualmining":false,
+"PrelaunchCommand":"",
+"Algorithms": [
+                {"Myriad-groestl":"-k myriadcoin-groestl --gpu-threads 2 --worksize 128 --intensity 19"},
+                {"Groestl":"-k groestlcoin --gpu-threads 2 --worksize 128 --intensity d"},
+                {"blake":"-k blake --worksize 128 --intensity 19"},
+                {"decred":"-k decred --worksize 128 --intensity 19"},
+                {"blake14r":"-k decred"},
+                {"Keccak":"-k maxcoin --worksize 128 --intensity 19"},
+                {"lbry":"-k lbry --worksize 128 --intensity 19"},
+                {"Pascal":"-k pascal --worksize 128 --intensity 19"},
+                {"lyra2v2":"-k lyra2rev2 --gpu-threads 2 --worksize 128 --intensity d"},
+                {"lyra2z":"-k lyra2z --worksize 32 --intensity 18"},
+                {"x11ghost":"-k sibcoin-mod --gpu-threads 2 --worksize 64 --intensity 16"}
+]
+
+}

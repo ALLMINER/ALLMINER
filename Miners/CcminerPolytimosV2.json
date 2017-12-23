@@ -1,0 +1,17 @@
+{
+    "Path" : ".\\Bin\\NVIDIA-CcminerpolytimosV2\\ccminer.exe",
+    "ExtractionPath" : ".\\Bin\\NVIDIA-CcminerpolytimosV2\\",
+    "Uri" : "https://github.com/punxsutawneyphil/ccminer/releases/download/polytimosv2/ccminer-polytimos_v2.zip",
+    "Types" : ["NVIDIA"],
+    "Arguments" : "-o #PROTOCOL#://#SERVER#:#PORT# -u #LOGIN# -p #PASSWORD# -R 10 -r 4 -b #APIPORT# -d #DEVICES# #ALGORITHMPARAMETERS# ",
+    "API" : "Ccminer",
+    "APIPort" : 4068,
+    "Wrap" : false,
+    "Dualmining":false,
+    "PrelaunchCommand":"",
+    "Algorithms": [
+                    {"lyra2v2":"-a lyra2v2"},
+                   {"polytimos" : "-a poly"}
+
+                  ]
+    }
