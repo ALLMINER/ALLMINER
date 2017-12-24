@@ -14,6 +14,7 @@
                     {"hsr":"-a hsr"},
                     {"nist5":"-a nist5"},
                     {"x11ghost":"-a sib"},
+                    {"x17" : "-a x17"},
                     {"blake2s":"-a blake2s"}
 
                   ]
