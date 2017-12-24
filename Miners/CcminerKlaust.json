@@ -10,7 +10,6 @@
 "PrelaunchCommand":"",
 "Algorithms": [
                 {"groestl":"-a groestl"},
-                {"x11ghost" : "-a sib"},
                 {"Myriad-Groestl" : "-a myr-gr"},
                 {"Neoscrypt":"-a Neoscrypt"},
                 {"Keccak" : "-a Keccak -m 2" }
