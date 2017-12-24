@@ -13,7 +13,7 @@
 
                     {"hsr":"-a hsr"},
                     {"nist5":"-a nist5"},
-                    {"x11ghost":"-a sib"},
+                    {"x11gost":"-a sib"},
                     {"blake2s":"-a blake2s"}
 
                   ]
