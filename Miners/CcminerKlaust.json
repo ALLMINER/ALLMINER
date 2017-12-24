@@ -12,6 +12,7 @@
                 {"groestl":"-a groestl"},
                 {"Myriad-Groestl" : "-a myr-gr"},
                 {"Neoscrypt":"-a Neoscrypt"},
+                {"skein" : "-a skein"},
                 {"Keccak" : "-a Keccak -m 2" }
                 
               ]
