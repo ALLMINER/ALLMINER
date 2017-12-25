@@ -59,7 +59,7 @@
 
 -- Screen to be shown at script start-up (WALLETS/CURRENT/HISTORY/PROFITS)
 
-@@STARTSCREEN=CURRENT
+@@STARTSCREEN=PROFITS
 
 -- [OPTIONAL] API Keys
 -- Some non-anonymous pools, such as Suprnova and MPH, require API keys to obtain wallet details.
